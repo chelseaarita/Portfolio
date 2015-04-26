@@ -1,0 +1,148 @@
+body {
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	}
+
+h2, .statement {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	line-height: 40px;
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.quote {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	text-transform: uppercase;
+	color: #6d6d6d;
+	line-height: 45px;
+}
+
+.quote-author {
+	font-family: crimsontext, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	color: #6d6d6d;
+
+}
+
+	a {
+	color: #9a9a9a;
+	text-decoration: none;
+	-webkit-transition: color 0.3s ease-in-out;
+	-moz-transition: color 0.3s ease-in-out;
+	-o-transition: color 0.3s ease-in-out;
+	transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #4A4A4A; 
+}
+
+.nav {
+	padding-top: 15rem;
+	padding-bottom: 5rem;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	color: #333;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	background-color: #343838;
+}
+
+.intro {
+	padding-top: 5rem;
+	padding-bottom: 20rem;
+	background-color: #343838;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #efefef;
+    font-size: 11px;
+
+}
+
+.work {
+	background-color: #f8f8f8;
+	padding-top: 20rem;
+	padding-bottom: 20rem;
+}
+
+.about {
+	background-color: #f8f8f8;
+	padding-top: 20rem;
+	padding-bottom: 20rem;
+
+
+}
+
+.about-heading {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #6d6d6d;
+
+}
+
+.about-paragraph {
+	font-family: 'crimson text', serif;
+	font-weight: 400;
+	color: #9a9a9a;
+	font-size: 19px;
+	line-height: 30px;
+}
+
+.cite {
+	background-color: #fff;
+	padding-top: 20rem;
+	padding-bottom: 20rem;
+
+}
+
+.contact { 
+	padding: 15rem;
+
+}
+
+.copyright {
+	background-color: #000;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	padding: 2rem;
+	letter-spacing: 1px;
+	}
+
+.navlogo {
+	background-color: #fff;
+	padding-top: 15rem;
+	padding-bottom: 5rem;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	color: #333;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.logos {
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
