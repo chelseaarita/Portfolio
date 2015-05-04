@@ -4,6 +4,8 @@ body {
 	color: #000;
 	margin: 0;
 	padding: 0;
+	font-size: 11px;
+	font-weight: 700;
 	}
 
 h2, .statement {
@@ -18,6 +20,8 @@ h2, .statement {
 
 
 	a {
+	font-size: 12px;
+	font-weight: 700;
 	color: #008C9E;
 	text-decoration: none;
 	-webkit-transition: color 0.3s ease-in-out;
@@ -27,35 +31,21 @@ h2, .statement {
 }
 
 a:hover {
-  color: #003238; 
+  color: #005762; 
 }
 
-.nav {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-	font-family: 'Montserrat', sans-serif;
-	display: block;
-	color: #333;
-	font-size: 11px;
-	font-style: normal;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	background-color: #005F6B;
-}
 
 .intro {
-	padding-top: 3rem;
-	padding-bottom: 8rem;
-	background-color: #005F6B;
-    font-family: 'Montserrat', sans-serif;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	background: #005F6B;
+	font-family: 'Montserrat', sans-serif;
     display: block;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
     color: #efefef;
     font-size: 11px;
-
 }
 
 .work {
@@ -71,8 +61,25 @@ a:hover {
 	height: auto; 
 }
 
+.fixed-nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 10px;
+	background-color: #f9f9f9;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	box-shadow: 0 1px 5px rgba(0,0,0,.4);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	color: #008C9E;
+}
+
 .about {
-	background-color: #fff;
+	background: #fff;
 	padding-top: 10rem;
 	padding-bottom: 10rem;
 }
@@ -97,7 +104,7 @@ a:hover {
 }
 
 .cite {
-	background-color: #008C9E;
+	background: #008C9E url("../img/geometric.png") fixed center;
 	padding-top: 10rem;
 	padding-bottom: 10rem;
 	letter-spacing: 1px;
@@ -149,7 +156,7 @@ a:hover {
 
 .navwork {
 	background-color: #fff;
-	padding-top: 5rem;
+	padding-top: 10rem;
 	padding-bottom: 5rem;
 	font-family: 'Montserrat', sans-serif;
 	display: block;
