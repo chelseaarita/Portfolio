@@ -172,7 +172,6 @@ a:hover {
 	font-size: 11px;
 	font-style: normal;
 	font-weight: 700;
-	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
@@ -180,3 +179,21 @@ a:hover {
 	background-color: #fff;
 	font-family: 'Montserrat', sans-serif;
 }
+
+.caseheader {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #333;
+	text-align: left;
+}
+.casetext {
+	font-family: crimsontext, serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #545454;
+	text-align: left;
+}
+
