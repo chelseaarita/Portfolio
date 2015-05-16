@@ -49,17 +49,13 @@ a:hover {
 
 .work {
 	background-color: #fff;
-	padding-top: 8rem;
-	padding-bottom: 8rem;
-	padding-right: 8rem;
-	padding-left: 8rem;
+	padding: 8rem 8rem 8rem 8rem;
 }
 
 .work img {
 	width: 100%;
 	height: auto; 
 }
-
 .fixed-nav-bar {
 	position: fixed;
 	top: 0;
@@ -196,4 +192,3 @@ a:hover {
 	color: #545454;
 	text-align: left;
 }
-
