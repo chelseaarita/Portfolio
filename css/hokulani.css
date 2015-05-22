@@ -18,7 +18,7 @@ h2, .statement {
 	text-transform: uppercase;
 }
 
-a {
+.header a {
 	font-size: 12px;
 	color: #fff;
 	text-decoration: none;
@@ -26,41 +26,31 @@ a {
 	-moz-transition: color 0.3s ease-in-out;
 	-o-transition: color 0.3s ease-in-out;
 	transition: color 0.3s ease-in-out;
+}
+
+.main a {
+	font-size: 12px;
+	color: #005F6B;
+	text-decoration: none;
+	-webkit-transition: color 0.3s ease-in-out;
+	-moz-transition: color 0.3s ease-in-out;
+	-o-transition: color 0.3s ease-in-out;
+	transition: color 0.3s ease-in-out;
+}
+
+.footer a {
+	font-size: 12px;
+	color: #005F6B;
+	text-decoration: none;
+	-webkit-transition: color 0.3s ease-in-out;
+	-moz-transition: color 0.3s ease-in-out;
+	-o-transition: color 0.3s ease-in-out;
+	transition: color 0.3s ease-in-out;
+
 }
 
 a:hover {
   color: #008C9E; 
-}
-
-header:a {
-	font-size: 12px;
-	color: #fff;
-	text-decoration: none;
-	-webkit-transition: color 0.3s ease-in-out;
-	-moz-transition: color 0.3s ease-in-out;
-	-o-transition: color 0.3s ease-in-out;
-	transition: color 0.3s ease-in-out;
-}
-
-.main:a {
-	font-size: 12px;
-	color: #005F6B;
-	text-decoration: none;
-	-webkit-transition: color 0.3s ease-in-out;
-	-moz-transition: color 0.3s ease-in-out;
-	-o-transition: color 0.3s ease-in-out;
-	transition: color 0.3s ease-in-out;
-}
-
-.footer:a {
-	font-size: 12px;
-	color: #005F6B;
-	text-decoration: none;
-	-webkit-transition: color 0.3s ease-in-out;
-	-moz-transition: color 0.3s ease-in-out;
-	-o-transition: color 0.3s ease-in-out;
-	transition: color 0.3s ease-in-out;
-
 }
 
 .intro {
@@ -100,67 +90,9 @@ header:a {
 	font-size: 12px;
 	color: #fff;
 	letter-spacing: 1px;
-}
-
-.about {
-	background: #fff;
-	padding-top: 10rem;
-	padding-bottom: 10rem;
-}
-
-.about-heading {
-	font-family: 'Montserrat', sans-serif;
-	letter-spacing: 1px;
-	font-size: 20px;
-	text-transform: uppercase;
-	font-weight: 400;
-	color: #008C9E;
 
 }
 
-.about-paragraph {
-	font-family: 'crimson text', serif;
-	font-weight: 400;
-	color: #6d6d6d;
-	font-size: 19px;
-	line-height: 30px;
-	letter-spacing: .5px;
-}
-
-.about-skills {
-	font-family: 'crimson text', serif;
-	font-weight: 400;
-	color: #6d6d6d;
-	font-size: 15px;
-	line-height: 30px;
-	letter-spacing: .5px;
-}
-
-.cite {
-	background: #008C9E url("../img/geometric.png") fixed center;
-	padding-top: 10rem;
-	padding-bottom: 10rem;
-	letter-spacing: 1px;
-
-}
-
-.quote {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 28px;
-	text-transform: uppercase;
-	color: #fff;
-	line-height: 45px;
-}
-
-.quote-author {
-	font-family: crimsontext, serif;
-	font-weight: 400;
-	font-style: italic;
-	font-size: 18px;
-	color: #fff;
-	letter-spacing: .5px;
-
-}
 
 .social {
 	font-family: crimsontext, serif;
@@ -180,6 +112,19 @@ header:a {
 	padding-bottom: 8rem;
 	letter-spacing: 1px;
 	}
+
+.copyright a {
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: color 0.3s ease-in-out;
+	-moz-transition: color 0.3s ease-in-out;
+	-o-transition: color 0.3s ease-in-out;
+	transition: color 0.3s ease-in-out;
+}
+
+.copyright a:hover {
+	color: #008C9E; 
+}
 
 .allrights {
 	color: #fff;
@@ -210,10 +155,10 @@ header:a {
 
  }
 
-.logos {
-	background-color: #fff;
-	font-family: 'Montserrat', sans-serif;
-}
+ .navwork a:hover {
+ 	color: #008C9E; 
+
+ }
 
 .caseheader {
 	font-family: 'Montserrat', sans-serif;
