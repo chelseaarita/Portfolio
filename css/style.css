@@ -8,7 +8,7 @@ body {
 	font-weight: 700;
 	}
 
-h2, .statement {
+h2  {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
 	line-height: 40px;
@@ -76,6 +76,44 @@ header:a {
     font-size: 11px;
 }
 
+@media (max-width: 600px) {
+		  .intro {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	padding-left: 5rem;
+	background: #005F6B;
+	font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #efefef;
+    font-size: 11px;
+	}
+}
+
+.statement {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	line-height: 40px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+		.statement {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	line-height: 24px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+		}
+}				
+
 .work {
 	background-color: #fff;
 	padding: 8rem 8rem 8rem 8rem;
@@ -101,6 +139,30 @@ header:a {
 	color: #fff;
 	letter-spacing: 1px;
 }
+
+.grid__item {
+			float: left;
+		}
+ 
+		.one-quarter {
+			width: 25%;
+		}
+ 
+		img {
+			height: auto;
+			width: 100%;
+		}
+ 
+		@media (max-width: 600px) {
+		  .grid__item {
+				float: none;
+			}
+			
+			.one-quarter {
+				width: 100%;
+			}	
+		}
+ 
 
 .about {
 	background: #fff;
