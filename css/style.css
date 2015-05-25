@@ -140,6 +140,8 @@ header:a {
 	letter-spacing: 1px;
 }
 
+
+
 .grid__item {
 			float: left;
 		}
@@ -160,9 +162,16 @@ header:a {
 			
 			.one-quarter {
 				width: 100%;
-			}	
+			}
+
+			* { margin: 0; padding: 0; }
+
 		}
- 
+
+.logoimg {
+	height: 100%;
+	width: 100%;
+}
 
 .about {
 	background: #fff;
