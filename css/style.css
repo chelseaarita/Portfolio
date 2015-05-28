@@ -152,10 +152,10 @@ header:a {
 			width: 25%;
 		}
  
-		img {
+		/*img {
 			height: auto;
 			width: 100%;
-		}
+		}*/
  
 		@media (max-width: 600px) {
 		  .grid__item {
