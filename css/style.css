@@ -144,7 +144,7 @@ header:a {
 	display: block;
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
 		.fixed-nav-bar {
 	font-family: 'Montserrat', sans-serif;
 	position: fixed;
@@ -166,7 +166,7 @@ header:a {
 	font-weight: 400;
 	text-transform: uppercase;
 		}
-}	
+}*/	
 
 .grid__item {
 			float: left;
@@ -270,7 +270,7 @@ header:a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 11px;
 	padding-top: 8rem;
-	padding-bottom: 0rem;
+	padding-bottom: 5rem;
 	letter-spacing: 1px;
 	}
 
