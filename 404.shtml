@@ -27,23 +27,35 @@
 <body>
 
 <!-- Primary Page Layout -->
-
+<nav class="fixed-nav-bar-index">
+	<div class="container">
+		<div class="twelve columns">
+			<div align="center">
+				CHELSEA ARITA &nbsp; &nbsp; 
+				<a href="mailto:chelseaarita@gmail.com"><i class="fa fa-envelope-o fa-lg"></i></a>	&nbsp; &nbsp; 
+				<a href="https://www.linkedin.com/in/chelseaarita" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a> &nbsp;	&nbsp; 
+				<a href="http://www.github.com/chelseaarita" target="_blank"><i class="fa fa-github fa-lg"></i></a> &nbsp;	&nbsp; 
+				<a href="http://twitter.com/chelseaarita" target="_blank"><i class="fa fa-twitter fa-lg"></i></a> &nbsp;&nbsp;
+				<a href="http://instagram.com/ckea" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+			</div>
+			</div>
+		</div>
+	</div>
+</nav>
 
 
 <!-- intro -->
 <div class="intro">
 	<div class="container">
 		<div class="twelve columns">
-			<div align="left">
+			<div align="center">
 				<img src="img/logo-small.png"><br/>
-				CHELSEA ARITA<br/><p>
+				<br/><p>
 				<div class="statement">
 					hello, i’m chelsea.
 				</div>
-				<br/>
-				<a href="mailto:chelseaarita@gmail.com"><i class="fa fa-envelope-square fa-2x"></i></a>	&nbsp; &nbsp; 
-				<a href="https://www.linkedin.com/in/chelseaarita" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a> &nbsp;	&nbsp; 
-				<a href="http://www.github.com/chelseaarita" target="_blank"><i class="fa fa-github fa-2x"></i></a> 
+			
+				
 				
 			</div>
 		</div>
@@ -122,11 +134,9 @@
 <div class="about">
 	<div class="container">
 		<div class="about-paragraph">
-			<p>Chelsea Arita worked and freelanced at a number of companies within the Bay Area such as Interbrand, Williams-Sonoma, Bare Escentuals, and the University of California, San Francisco. She majored in graphic design at the Academy of Art University. </p>
+			<p>Chelsea Arita is a graphic designer, print and web production artist, web designer and developer, and mobile designer based in San Francisco, California. She's freelanced and worked with a number of companies within the Bay Area such as Interbrand, Williams-Sonoma, Bare Escentuals, and the University of California, San Francisco.<br/>
 
-			<p>Chelsea is proficient in graphic design, print and web production, web designing and development, and mobile design.</p>
-
-			<p>Chelsea likes running, sweet bikes, and taking photos. (Not limited to Instagram.) She currently resides in San Francisco, California and is originally from Hawaii. 
+			<p>Chelsea likes running, sweet bikes, and taking photos. (Not limited to Instagram.) She studied graphic design at the Academy of Art University and is originally from Hawaii.
 			</p>
 			</div>
 		</div>
@@ -143,13 +153,8 @@
 
 <div class="copyright">
 	<div class="container">
-		<div class="social">
-			<p>Email me at chelseaarita@gmail.com</p>
-		</div>
-		
-
 		<p>
-		<a href="/blog" target="_blank"><i class="fa fa-rss-square fa-lg"></i></a> &nbsp; &nbsp;
+		<a href="mailto:chelseaarita@gmail.com"><i class="fa fa-envelope-o fa-lg"></i></a>	&nbsp; &nbsp; 
 		<a href="http://www.github.com/chelseaarita" target="_blank"><i class="fa fa-github fa-lg"></i></a> &nbsp; &nbsp;
 		<a href="https://www.linkedin.com/in/chelseaarita" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a> &nbsp; &nbsp;
 		<a href="http://twitter.com/chelseaarita" target="_blank"><i class="fa fa-twitter fa-lg"></i></a> &nbsp;&nbsp;

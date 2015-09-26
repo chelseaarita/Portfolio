@@ -233,7 +233,7 @@ header:a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 11px;
 	padding-top: 8rem;
-	padding-bottom: 5rem;
+	padding-bottom: 8rem;
 	letter-spacing: 1px;
 }
 
@@ -256,6 +256,24 @@ header:a {
 	display: block;
 }
 
+.fixed-nav-bar-index {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 10px;
+	background-color: #005F6B;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: #fff;
+	letter-spacing: 1px;
+	display: block;
+}
+
+
 .footer:a {
 	font-size: 12px;
 	color: #005F6B;
@@ -273,7 +291,7 @@ header:a {
 }
 
 .intro {
-	padding-top: 10rem;
+	padding-top: 12rem;
 	padding-bottom: 10rem;
 	background: #005F6B;
 	font-family: 'Montserrat', sans-serif;
