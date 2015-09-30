@@ -53,7 +53,7 @@ header:a {
 	transition: color 0.3s ease-in-out;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 400px) {
 		  .intro {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
@@ -70,7 +70,7 @@ header:a {
 }
 
 
-@media (max-width: 600px) {
+@media (min-width: 400px) {
 		.statement {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 22px;
@@ -292,7 +292,7 @@ header:a {
 
 .intro {
 	padding-top: 12rem;
-	padding-bottom: 10rem;
+	padding-bottom: 8rem;
 	background: #005F6B;
 	font-family: 'Montserrat', sans-serif;
     display: block;
